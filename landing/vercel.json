@@ -20,7 +20,7 @@
     ],
     "rewrites": [
         {
-            "source": "/dashboard/:path*",
+            "source": "/dunkertons/:path*",
             "destination": "https://dunkertons-sales-dashboard.vercel.app/:path*"
         }
     ]
