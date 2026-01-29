@@ -18,7 +18,12 @@
             ]
         }
     ],
+    "trailingSlash": false,
     "rewrites": [
+        {
+            "source": "/dunkertons",
+            "destination": "https://dunkertons-sales-dashboard.vercel.app/dunkertons"
+        },
         {
             "source": "/dunkertons/:path*",
             "destination": "https://dunkertons-sales-dashboard.vercel.app/dunkertons/:path*"
