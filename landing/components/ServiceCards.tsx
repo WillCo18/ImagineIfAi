@@ -5,54 +5,41 @@ const services = [
         id: 'leads',
         icon: (
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <polyline points="16 11 18 13 22 9" />
             </svg>
         ),
         title: 'Lead Capture & Response',
-        body: 'Respond fast. Capture leads you’d otherwise lose.',
-        bullets: [
-            'Instant personalised reply to new enquiries',
-            'CRM auto-populated with the right fields',
-            'Follow-ups queued with human approval',
-            'Hot leads flagged to your team'
-        ],
-        outcome: 'Faster response, higher conversion, fewer missed leads.'
+        body: 'Messy inboxes and slow replies were killing conversions. We built automated filters that qualified inbound leads and triggered instant, branded responses.',
+        bullets: ['Automated qualification', 'Populated CRM data', 'Booked appointments'],
+        outcome: 'Faster response, higher conversion',
     },
     {
-        id: 'financial',
+        id: 'finance',
         icon: (
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <line x1="18" y1="20" x2="18" y2="10" />
-                <line x1="12" y1="20" x2="12" y2="4" />
-                <line x1="6" y1="20" x2="6" y2="14" />
+                <line x1="12" y1="1" x2="12" y2="23" />
+                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
             </svg>
         ),
         title: 'Financial Data & BI Dashboards',
-        body: 'See the business clearly. Make decisions sooner.',
-        bullets: [
-            'Connect accounting, CRM, and sales data',
-            'Normalise fields so reporting actually works',
-            'Exceptions flagged early (missing margin, spikes)',
-            'Weekly insights, not month-end surprises'
-        ],
-        outcome: 'Clear numbers, quicker actions, fewer surprises.'
+        body: 'Manual reporting took hours and was prone to error. We unified data from multiple sources into a single, real-time dashboard for clear decision making.',
+        bullets: ['Integrated multiple sources', 'Created real-time P&L views', 'Automated reconciliations'],
+        outcome: 'Clearer data, faster decisions',
     },
     {
         id: 'social',
         icon: (
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 1 1-7.6-12.7 8.19 8.19 0 0 1 4.9 1.5" />
+                <polyline points="16 5 12 9 8 5" />
             </svg>
         ),
         title: 'Social Media Ops',
-        body: 'Keep consistent output without living on social.',
-        bullets: [
-            'Monitor themes and feedback from your audience',
-            'Draft on-brand posts from real events and offers',
-            'Schedule across channels with approval gates',
-            'Simple reporting on what performed'
-        ],
-        outcome: 'Consistency without burnout, content tied to revenue.'
+        body: 'Managing content across platforms was a full-time job. We automated the distribution and engagement tracking, keeping brands active without the manual grind.',
+        bullets: ['Handled cross-platform posting', 'Applied sentiment analysis', 'Automated engagement reports'],
+        outcome: 'Consistent presence, zero manual effort',
     },
 ];
 
