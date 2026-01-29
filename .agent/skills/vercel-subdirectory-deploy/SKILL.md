@@ -7,17 +7,16 @@ description: Host multiple standalone Next.js projects under subdirectories of a
 
 Use this skill to host multiple independent applications (Micro-SaaS, client demos, etc.) under a single domain (e.g., `domain.com/app1`, `domain.com/app2`).
 
-## Step 1: Configure the Sub-Project
-In the project you want to host as a subdirectory (e.g., "YouTube Transcriber"):
+## Automation Utility
+You can use the included `prepare_vercel.js` script to automatically check your project and inject the required settings.
 
-1. Open `next.config.js` (or `next.config.ts`).
-2. Add the `basePath` property:
+1. Copy `scripts/prepare_vercel.js` to your new project folder.
+2. Run: `node prepare_vercel.js your-path-name`
 
-```javascript
-const nextConfig = {
-  basePath: '/youtube', // Replace with your desired path
-}
-```
+It will:
+- ✅ Check for `next.config.js/ts`.
+- ✍️ Inject the `basePath`.
+- 📋 Provide the exact JSON snippet for your `vercel.json` main file.
 
 ## Step 2: Configure the Root Project
 In your main landing page project (the one that owns the domain):
