@@ -35,7 +35,7 @@ export default function HeroSection() {
                         playsInline
                         className={styles.headerVideo}
                     >
-                        <source src="/ImagineIf_Header_optimized.mp4" type="video/mp4" />
+                        <source src="/Whisk2IIA.mp4" type="video/mp4" />
                     </video>
                 </div>
             </div>
