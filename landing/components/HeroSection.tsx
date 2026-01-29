@@ -17,7 +17,7 @@ export default function HeroSection() {
 
                     {/* CTAs */}
                     <div className={styles.actions}>
-                        <a href="#lead-form" className={styles.btnPrimary}>
+                        <a href="#contact" className={styles.btnPrimary}>
                             Book a quick call
                         </a>
                         <a href="#how-it-works" className={styles.secondaryLink}>
