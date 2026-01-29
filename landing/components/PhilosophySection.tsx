@@ -11,7 +11,7 @@ export default function PhilosophySection() {
                         We solve <span className={styles.highlight}>operational problems</span>.
                     </h2>
                     <p className={styles.subline}>
-                        Most businesses <span className={styles.strike}>drown in hype</span>
+                        Most businesses drown in hype
                         but starve for practical application. We cut through the noise to build
                         reliable automation that your team will actually use.
                     </p>

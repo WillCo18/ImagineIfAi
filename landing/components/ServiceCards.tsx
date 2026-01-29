@@ -61,7 +61,7 @@ export default function ServiceCards() {
         <section className={styles.section} id="services">
             <div className={styles.container}>
                 <div className={styles.header}>
-                    <h2 className={styles.title}>Real automations we deploy (examples)</h2>
+                    <h2 className={styles.title}>Example automations deployed for clients</h2>
                     <p className={styles.subtitle}>
                         A few common builds. Not the full list.
                     </p>
