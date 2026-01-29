@@ -2,7 +2,7 @@ import styles from './PhilosophySection.module.css';
 
 export default function PhilosophySection() {
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id="approach">
             <div className={styles.container}>
                 {/* 1. The Stance */}
                 <div className={styles.stance}>
