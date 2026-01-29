@@ -1,0 +1,105 @@
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-white);
+    padding: var(--spacing-3xl) var(--spacing-lg);
+}
+
+.container {
+    max-width: var(--container-max);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* MP4 Header Video */
+.videoWrapper {
+    width: 100%;
+    max-width: 320px;
+    margin-bottom: var(--spacing-xl);
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.headerVideo {
+    width: 100%;
+    height: auto;
+    display: block;
+    mix-blend-mode: multiply;
+}
+
+/* Typography */
+.headline {
+    font-size: var(--font-size-3xl);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-tight);
+    color: var(--color-gray-900);
+    margin-bottom: var(--spacing-md);
+}
+
+.subheadline {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-muted);
+    line-height: var(--line-height-relaxed);
+    margin-bottom: var(--spacing-xl);
+}
+
+/* CTAs */
+.actions {
+    display: flex;
+    flex-direction: row;
+    gap: var(--spacing-md);
+    align-items: center;
+}
+
+.btnPrimary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-sm) var(--spacing-xl);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-white);
+    background-color: var(--color-accent);
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.btnPrimary:hover {
+    background-color: var(--color-accent-hover);
+    transform: translateY(-1px);
+    color: var(--color-white);
+}
+
+.secondaryLink {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.secondaryLink:hover {
+    color: var(--color-accent);
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+    .videoWrapper {
+        max-width: 400px;
+    }
+
+    .headline {
+        font-size: var(--font-size-4xl);
+    }
+
+    .subheadline {
+        font-size: var(--font-size-xl);
+    }
+}
