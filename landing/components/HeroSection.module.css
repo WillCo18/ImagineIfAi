@@ -10,7 +10,8 @@
 .container {
     max-width: var(--container-max);
     width: 100%;
-    display: grid;
+    display: flex;
+    flex-direction: column-reverse;
     gap: var(--spacing-3xl);
     align-items: center;
 }
