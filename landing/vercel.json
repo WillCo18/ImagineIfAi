@@ -17,5 +17,11 @@
                 }
             ]
         }
+    ],
+    "rewrites": [
+        {
+            "source": "/dashboard/:path*",
+            "destination": "https://dunkertons-sales-dashboard.vercel.app/:path*"
+        }
     ]
 }
