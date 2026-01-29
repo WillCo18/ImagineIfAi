@@ -28,7 +28,7 @@
     font-size: var(--font-size-3xl);
     font-weight: var(--font-weight-bold);
     line-height: var(--line-height-tight);
-    color: var(--color-gray-900);
+    color: var(--color-primary);
     margin-bottom: var(--spacing-md);
 }
 
