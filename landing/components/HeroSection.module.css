@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--color-bg-hero);
+    background-color: var(--color-white);
     padding: var(--spacing-3xl) var(--spacing-lg);
 }
 
